@@ -97,8 +97,8 @@ col1, col2 = st.columns(2)
 with col1:
     language = st.selectbox(label = "Choose LANGUAGE of Tweet", options = ['English','Mandarin', 'Cantonese','Hindi', 'Arabic', 'Urdu', 'Mandarin', 'Cantonese'])
 
-with col2:
-    organisation = st.text_input('Organisation', "Example - Indian Army/ Ashtashakti Command")
+#with col2:
+#    organisation = st.text_input('Organisation', "Example - Indian Army/ Ashtashakti Command")
 
 #with col3:
 #   number = st.number_input("Number of tweets", min_value = 1, max_value = 10, value = 1, step = 1)
