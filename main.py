@@ -33,7 +33,7 @@ translate_prompt = PromptTemplate(input_variables = ["topic", "language"], templ
 # Create LLM Chain using Prompt Template and Model
 translate_chain = translate_prompt | gemini_model
 
-st.set_page_config(page_title="TWEET FORGE - Redlytics Ltd", layout="centered")
+st.set_page_config(page_title="FEARLESS AI Translator", layout="centered")
 
 #st.header("AITranslator by REDLYTICS")
 
